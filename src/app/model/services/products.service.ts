@@ -7,9 +7,9 @@ import { Iproducts } from './iproducts';
 export class ProductsService {
 
   private products: Iproducts[] = [
-    { id: 1, name: 'All Stars Preto', price: 150.0, description: 'Preto de couro', image: './allStars preto.png'},
-    { id: 2, name: 'All Stars Branco ', price: 750.5, description: 'Branco em detalhe dourado', image: './converse_all_star_cano_medio_chuck_taylor_bege_705_1_164a6103b7a63900a20b33b2aa003ed3.webp' },
-    { id: 3, name: 'All Stars Preto e Azul', price: 600.0, description: 'Preto com detalhes em azul', image: './AllStars Preto2.png' }
+    { id: 1, name: 'Adidas', price: 150.0, description: 'Preto com fundo branco', image: '/.adidasBranco.webp'},
+    { id: 2, name: 'Vans Preto ', price: 750.5, description: 'Branco em detalhe preto', image: './vans.webp' },
+    { id: 3, name: 'Panda', price: 600.0, description: 'Preto com detalhes em branco', image: './nikeDunk.webp' }
   ];
   getProducts(): Iproducts[] {
     return this.products;
